@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonstart {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.buttonstart:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttonstop {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.buttonstop:hover {
+    background-color: rgb(218, 31, 31);
+    color: white;
+}
+
+.buttonstate {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.buttonstate:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+table {
+    table-layout: fixed;
+    width: 400px; 
+    border-collapse: collapse;    
+  }
+  
+  table, td, th {
+    border: 1px solid white;
+  }
+
+  table.menu {
+    width: auto;
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+table.hori{
+    table-layout: fixed;
+    width: auto; 
+    margin-right: 523px;
+    margin-left: auto;
+}
+
+table.top{
+    writing-mode: vertical-lr;
+    min-height: 250px; /* for firefox */
+    table-layout: fixed;
+    width: 100px; 
+    margin-right:auto ;
+    margin-left: 800px;
+}
